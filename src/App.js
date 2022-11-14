@@ -1,12 +1,12 @@
 import "./App.css";
 import { useState } from "react";
-import ToDo from "./components/ToDo.jsx";
-import AddToDo from "./components/AddToDo.jsx";
-import UpdateToDo from "./components/UpdateToDo.jsx";
+import ToDo from "./components/ToDo";
+import AddToDo from "./components/AddToDo";
+import UpdateToDo from "./components/UpdateToDo";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  // Task state
+  // ToDo state
   const [toDo, setToDo] = useState([]);
 
   // Temporary state

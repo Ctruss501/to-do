@@ -63,6 +63,16 @@ p {
   color: red;
 }
 
+.btn-success {
+  background-color: #0371b5 !important;
+  outline: 0 0;
+}
+.btn-warning {
+  background-color: blueviolet !important;
+  color: white !important;
+  outline: none;
+}
+
 .mr-20 {
   margin-right: 20px;
 }
